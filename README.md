@@ -9,7 +9,7 @@ In this example, I'm using scalatest_2.11 with ScalaTest Maven plugin.
 
 Tricks implemented here are:
 
-- Using special suite for tests -> This ensure you have the correct execution order of your tests inside a package @see ```TestOrderSuite.scala`
+- Using special suite for tests -> This ensure you have the correct execution order of your tests inside a package @see ```TestOrderSuite.scala```
 - Using ```wildcardSuites``` property in ScalaTest Maven plugin -> This ensure that you have the correct execution of your tests *between* packages
 
 
